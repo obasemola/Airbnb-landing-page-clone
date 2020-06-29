@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.whole-page {
+  background-color: black;
+  max-width: 1100px;
+  margin: 0 auto;
+  color: white;
+}
+
+.nav-bar {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  padding-bottom: 50px;
+  padding-top: 15px;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: -10px;
+}
+
+.nav-links {
+  display: flex;
+  padding-right: 0px;
+}
+
+.nav-links .language {
+  margin-right: 0px;
+  padding-right: 0px;
+}
+
+.nav-links .language span {
+  transform: rotate(-90deg);
+}
+
+
+.nav-bar input {
+  height: 50px;
+  width: 220px;
+  border-radius: 50px;
+  background-color: #2b2828;
+  padding: 0px 24px;
+}
+
+.nav-bar input::placeholder {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  
+}
+
+.nav-links button {
+  height: 50px;
+  width: 90px;
+  border-radius: 50px;
+  background-color: #2b2828;
+  padding: 0px 24px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  padding: 0;
+  margin-top: 12px;
+}
+
+.nav-links .language {
+  padding: 24px 12px;
+}
+
+.nav-links .help {
+  display: flex;
+}
+
+.nav-links .help span {
+  padding: 24px 12px;
+}
+
+.page-media {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-section {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  padding: 14px 0 !important;
+}
+
+.experience {
+  background-color: white;
+  color: black;
+  width: 160px;
+  height: 20px;
+  font-size: 12px;
+  border-radius: 3px;
+  text-align: center;
+  padding-left: 5px;
+  padding-top: 3px;
+}
+
+.info-section div {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  
+  };
+
+.event-info-1 .experience span {
+  font-family: Arial, Helvetica, sans-serif
+}
+
+
+.tags span {
+  background-color: #2b2828;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.event-info-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.more-info {
+  display: flex;
+}
+
+
+
+
